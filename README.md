@@ -1,9 +1,9 @@
 # Ex-4-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
-Date : 29.02.2024
-AIM
+# Date : 29.02.2024
+## AIM
 To write a lex program to implement lexical analyzer to recognize a few patterns.
 
-ALGORITHM
+## ALGORITHM
 Start the program.
 Lex program consists of three parts. a. Declaration %% b. Translation rules %% c. Auxilary procedure.
 The declaration section includes declaration of variables, maintest, constants and regular definitions.
@@ -11,7 +11,9 @@ Translation rule of lex program are statements of the form a. P1 {action} b. P2 
 Write a program in the vi editor and save it with .l extension.
 Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
 Compile that file with C compiler and verify the output.
-PROGRAM
+
+## PROGRAM
+```
 /* program name is lexp.l */ 
 %{ 
 /* program to recognize a c program */ 
@@ -78,8 +80,10 @@ return 0;
 { 
 return 0; 
 }
-OUTPUT
-image
+```
+## OUTPUT
+![image](https://github.com/madhi43/Ex-4---GENERATION-OF-LEXICAL-TOKENS-LEX-FLEX-TOOL/assets/103943383/30c987a2-d691-4d11-8a67-37c30ca28e75)
 
-RESULT
+
+## RESULT
 The lexical analyzer is implemented using lex and the output is verified.
